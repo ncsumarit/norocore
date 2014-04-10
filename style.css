@@ -1,0 +1,60 @@
+/*
+ Theme Name:   NoroCORE Theme
+ Description:  Twenty Fourteen Child Theme built for the NoroCORE Virology Center at NC State
+ Author:       OIT DEsign, Jen Riehle
+ Author URI:   http://oitdesign.ncsu.edu/
+ Template:     twentyfourteen
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+*/
+
+@import url("../twentyfourteen/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+body {background-color: #fff;}
+
+#page {margin: 0 auto;}
+
+.search-box-wrapper, .featured-content {padding-left:0px;}
+
+.masthead-fixed .site-header {border-bottom:solid 4px #000;}
+.masthead-fixed .site-main {margin-top:0px;}
+.site-header {background-color:#fff; color:#000;}
+.site-header a, .site-header a:hover {color:#000;}
+
+::selection, .search-toggle {background:#1d7a77;}
+.search-toggle:hover {background: #208985}
+
+#featured-content.featured-content {z-index: 1000;}
+
+.content-area {padding-top:0px;}
+
+/* NAVIGATION */
+
+.primary-navigation li:hover > a, .primary-navigation ul ul a, .secondary-navigation li:hover > a, 
+.primary-navigation li.focus > a, .secondary-navigation li.focus > a {
+	background-color: #76283e;
+	color: #fff;
+}
+
+.primary-navigation ul ul a:hover, .secondary-navigation ul ul a:hover,
+.primary-navigation ul ul li.focus > a, .secondary-navigation ul ul li.focus > a, .featured-content {
+	background: #8b2f49;
+}
+
+.secondary-navigation {margin-top:10px;}
+.secondary-navigation li, .secondary-navigation {border:none;}
+
+.site-navigation .current_page_item > a, .site-navigation .current_page_ancestor > a, .site-navigation .current-menu-item > a, .site-navigation .current-menu-ancestor > a {color:#8b2f49;}
+
+
+
+.post-thumbnail, a.post-thumbnail:hover {background: #3e58a3;}
+
+.site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content .entry-meta, .page-content {max-width:824px;}
+.site-content .entry-header {border-left: solid 6px #000; border-right: solid 6px #000;}
+
+.paging-navigation .page-numbers.current {border-top:5px solid #1d7a77;}
