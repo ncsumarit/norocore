@@ -19,3 +19,14 @@
 
 /* Global */
 
+body {background:#76283e;}
+
+#header {background:#eaeaea;}
+.site-title a {color:#333;}
+
+#footer-bottom #copyright {color:rgba(0,0,0,0.5);}
+
+/* Nav */
+#nav-header.nav-container {background-color:#333;}
+
+#nav-header .nav li a {background-color:#333;}

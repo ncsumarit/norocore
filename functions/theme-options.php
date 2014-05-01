@@ -63,10 +63,10 @@ function custom_theme_options() {
 			'id'		=> 'blog',
 			'title'		=> 'Blog'
 		),
-		array(
-			'id'		=> 'header',
-			'title'		=> 'Header'
-		),
+		//array(
+		//	'id'		=> 'header',
+		//	'title'		=> 'Header'
+		//),
 		array(
 			'id'		=> 'footer',
 			'title'		=> 'Footer'
@@ -1065,34 +1065,34 @@ function custom_theme_options() {
 			)
 		),
 		// Styling: Container Width
-		array(
-			'id'			=> 'container-width',
-			'label'			=> 'Website Max-width',
-			'desc'			=> 'Max-width of the container. If you use 2 sidebars, your container should be at least 1200px.<br /><i>Note: For 720px content (default) use <strong>1380px</strong> for 2 sidebars and <strong>1120px</strong> for 1 sidebar. If you use a combination of both, try something inbetween.</i>',
-			'std'			=> '1380',
-			'type'			=> 'numeric-slider',
-			'section'		=> 'styling',
-			'min_max_step'	=> '1024,1600,1'
-		),
+		//array(
+		//	'id'			=> 'container-width',
+		//	'label'			=> 'Website Max-width',
+		//	'desc'			=> 'Max-width of the container. If you use 2 sidebars, your container should be at least 1200px.<br /><i>Note: For 720px content (default) use <strong>1380px</strong> for 2 sidebars and <strong>1120px</strong> for 1 sidebar. If you use a combination of both, try something inbetween.</i>',
+		//	'std'			=> '1380',
+		//	'type'			=> 'numeric-slider',
+		//	'section'		=> 'styling',
+		//	'min_max_step'	=> '1024,1600,1'
+		//),
 		// Styling: Sidebar Padding
-		array(
-			'id'		=> 'sidebar-padding',
-			'label'		=> 'Sidebar Width',
-			'desc'		=> 'Change sidebar content padding and width',
-			'type'		=> 'radio',
-			'std'		=> '30',
-			'section'	=> 'styling',
-			'choices'	=> array(
-				array( 
-					'value' => '30',
-					'label' => '280px primary, 200px secondary (30px padding)'
-				),
-				array( 
-					'value' => '20',
-					'label' => '300px primary, 220px secondary (20px padding)'
-				)
-			)
-		),
+		//array(
+		//	'id'		=> 'sidebar-padding',
+		//	'label'		=> 'Sidebar Width',
+		//	'desc'		=> 'Change sidebar content padding and width',
+		//	'type'		=> 'radio',
+		//	'std'		=> '30',
+		//	'section'	=> 'styling',
+		//	'choices'	=> array(
+		//		array( 
+		//			'value' => '30',
+		//			'label' => '280px primary, 200px secondary (30px padding)'
+		//		),
+		//		array( 
+		//			'value' => '20',
+		//			'label' => '300px primary, 220px secondary (20px padding)'
+		//		)
+		//	)
+		//),
 		// Styling: Primary Color
 		array(
 			'id'		=> 'color-1',
@@ -1121,14 +1121,14 @@ function custom_theme_options() {
 			'class'		=> ''
 		),
 		// Styling: Header Background
-		array(
-			'id'		=> 'color-header',
-			'label'		=> 'Header Background',
-			'std'		=> '#33363b',
-			'type'		=> 'colorpicker',
-			'section'	=> 'styling',
-			'class'		=> ''
-		),
+		//array(
+		//	'id'		=> 'color-header',
+		//	'label'		=> 'Header Background',
+		//	'std'		=> '#33363b',
+		//	'type'		=> 'colorpicker',
+		//	'section'	=> 'styling',
+		//	'class'		=> ''
+		//),
 		// Styling: Footer Background
 		array(
 			'id'		=> 'color-footer',
@@ -1139,15 +1139,15 @@ function custom_theme_options() {
 			'class'		=> ''
 		),
 		// Styling: Header Logo Max-height
-		array(
-			'id'			=> 'logo-max-height',
-			'label'			=> 'Header Logo Image Max-height',
-			'desc'			=> 'Your logo image should have the double height of this to be high resolution',
-			'std'			=> '60',
-			'type'			=> 'numeric-slider',
-			'section'		=> 'styling',
-			'min_max_step'	=> '40,200,1'
-		),
+		//array(
+		//	'id'			=> 'logo-max-height',
+		//	'label'			=> 'Header Logo Image Max-height',
+		//	'desc'			=> 'Your logo image should have the double height of this to be high resolution',
+		//	'std'			=> '60',
+		//	'type'			=> 'numeric-slider',
+		//	'section'		=> 'styling',
+		//	'min_max_step'	=> '40,200,1'
+		//),
 		// Styling: Image Border Radius
 		array(
 			'id'			=> 'image-border-radius',
@@ -1159,13 +1159,13 @@ function custom_theme_options() {
 			'min_max_step'	=> '0,15,1'
 		),
 		// Styling: Body Background
-		array(
-			'id'		=> 'body-background',
-			'label'		=> 'Body Background',
-			'desc'		=> 'Set background color and/or upload your own background image',
-			'type'		=> 'background',
-			'section'	=> 'styling'
-		)
+		//array(
+		//	'id'		=> 'body-background',
+		//	'label'		=> 'Body Background',
+		//	'desc'		=> 'Set background color and/or upload your own background image',
+		//	'type'		=> 'background',
+		//	'section'	=> 'styling'
+		//)
 	)
 );
 
