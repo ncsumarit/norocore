@@ -1094,32 +1094,32 @@ function custom_theme_options() {
 		//	)
 		//),
 		// Styling: Primary Color
-		array(
-			'id'		=> 'color-1',
-			'label'		=> 'Primary Color',
-			'std'		=> '#3b8dbd',
-			'type'		=> 'colorpicker',
-			'section'	=> 'styling',
-			'class'		=> ''
-		),
+		//array(
+		//	'id'		=> 'color-1',
+		//	'label'		=> 'Primary Color',
+		//	'std'		=> '#3b8dbd',
+		//	'type'		=> 'colorpicker',
+		//	'section'	=> 'styling',
+		//	'class'		=> ''
+		//),
 		// Styling: Secondary Color
-		array(
-			'id'		=> 'color-2',
-			'label'		=> 'Secondary Color',
-			'std'		=> '#82b965',
-			'type'		=> 'colorpicker',
-			'section'	=> 'styling',
-			'class'		=> ''
-		),
+		//array(
+		//	'id'		=> 'color-2',
+		//	'label'		=> 'Secondary Color',
+		//	'std'		=> '#82b965',
+		//	'type'		=> 'colorpicker',
+		//	'section'	=> 'styling',
+		//	'class'		=> ''
+		//),
 		// Styling: Topbar Background
-		array(
-			'id'		=> 'color-topbar',
-			'label'		=> 'Topbar Background',
-			'std'		=> '#26272b',
-			'type'		=> 'colorpicker',
-			'section'	=> 'styling',
-			'class'		=> ''
-		),
+		//array(
+		//	'id'		=> 'color-topbar',
+		//	'label'		=> 'Topbar Background',
+		//	'std'		=> '#26272b',
+		//	'type'		=> 'colorpicker',
+		//	'section'	=> 'styling',
+		//	'class'		=> ''
+		//),
 		// Styling: Header Background
 		//array(
 		//	'id'		=> 'color-header',
@@ -1130,14 +1130,14 @@ function custom_theme_options() {
 		//	'class'		=> ''
 		//),
 		// Styling: Footer Background
-		array(
-			'id'		=> 'color-footer',
-			'label'		=> 'Footer Background',
-			'std'		=> '#33363b',
-			'type'		=> 'colorpicker',
-			'section'	=> 'styling',
-			'class'		=> ''
-		),
+		//array(
+		//	'id'		=> 'color-footer',
+		//	'label'		=> 'Footer Background',
+		//	'std'		=> '#33363b',
+		//	'type'		=> 'colorpicker',
+		//	'section'	=> 'styling',
+		//	'class'		=> ''
+		//),
 		// Styling: Header Logo Max-height
 		//array(
 		//	'id'			=> 'logo-max-height',

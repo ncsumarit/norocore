@@ -24,7 +24,20 @@ body {background:#76283e;}
 #header {background:#eaeaea;}
 .site-title a {color:#333;}
 
+.themeform input[type="submit"], .themeform button[type="submit"], .s1 .sidebar-top, .s1 .sidebar-toggle, #flexslider-featured .flex-control-nav li a.flex-active, .post-tags a:hover, .s1 .widget_calendar caption, #footer .widget_calendar caption, .author-bio .bio-avatar:after, .commentlist li.bypostauthor > .comment-body:after, .commentlist li.comment-author-admin > .comment-body:after 
+{background-color: #3e58a3;}
+
+.s2 .sidebar-top, .s2 .sidebar-toggle, .post-comments, .jp-play-bar, .jp-volume-bar-value, .s2 .widget_calendar caption 
+{background-color:#016a67;}
+
+
+
 #footer-bottom #copyright {color:rgba(0,0,0,0.5);}
+
+/* customHome */
+
+.customHome {width:440px; float: left; padding:0px 4px; margin:10px 18px; border:solid 1px #a20000;}
+
 
 /* Nav */
 #nav-header.nav-container {background-color:#333;}
