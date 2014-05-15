@@ -467,21 +467,21 @@ function custom_theme_options() {
 					'value'		=> 'col-2cr',
 					'label'		=> '2 Column Right',
 					'src'		=> get_template_directory_uri() . '/functions/images/col-2cr.png'
-				),
-				array(
-					'value'		=> 'col-3cm',
-					'label'		=> '3 Column Middle',
-					'src'		=> get_template_directory_uri() . '/functions/images/col-3cm.png'
-				),
-				array(
-					'value'		=> 'col-3cl',
-					'label'		=> '3 Column Left',
-					'src'		=> get_template_directory_uri() . '/functions/images/col-3cl.png'
-				),
-				array(
-					'value'		=> 'col-3cr',
-					'label'		=> '3 Column Right',
-					'src'		=> get_template_directory_uri() . '/functions/images/col-3cr.png'
+				//),
+				//array(
+				//	'value'		=> 'col-3cm',
+				//	'label'		=> '3 Column Middle',
+				//	'src'		=> get_template_directory_uri() . '/functions/images/col-3cm.png'
+				//),
+				//array(
+				//	'value'		=> 'col-3cl',
+				//	'label'		=> '3 Column Left',
+				//	'src'		=> get_template_directory_uri() . '/functions/images/col-3cl.png'
+				//),
+				//array(
+				//	'value'		=> 'col-3cr',
+				//	'label'		=> '3 Column Right',
+				//	'src'		=> get_template_directory_uri() . '/functions/images/col-3cr.png'
 				)
 			)
 		),
@@ -513,21 +513,21 @@ function custom_theme_options() {
 					'value'		=> 'col-2cr',
 					'label'		=> '2 Column Right',
 					'src'		=> get_template_directory_uri() . '/functions/images/col-2cr.png'
-				),
-				array(
-					'value'		=> 'col-3cm',
-					'label'		=> '3 Column Middle',
-					'src'		=> get_template_directory_uri() . '/functions/images/col-3cm.png'
-				),
-				array(
-					'value'		=> 'col-3cl',
-					'label'		=> '3 Column Left',
-					'src'		=> get_template_directory_uri() . '/functions/images/col-3cl.png'
-				),
-				array(
-					'value'		=> 'col-3cr',
-					'label'		=> '3 Column Right',
-					'src'		=> get_template_directory_uri() . '/functions/images/col-3cr.png'
+				//),
+				//array(
+				//	'value'		=> 'col-3cm',
+				//	'label'		=> '3 Column Middle',
+				//	'src'		=> get_template_directory_uri() . '/functions/images/col-3cm.png'
+				//),
+				//array(
+				//	'value'		=> 'col-3cl',
+				//	'label'		=> '3 Column Left',
+				//	'src'		=> get_template_directory_uri() . '/functions/images/col-3cl.png'
+				//),
+				//array(
+				//	'value'		=> 'col-3cr',
+				//	'label'		=> '3 Column Right',
+				//	'src'		=> get_template_directory_uri() . '/functions/images/col-3cr.png'
 				)
 			)
 		),
